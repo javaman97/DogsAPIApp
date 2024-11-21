@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_dog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".ui.fragment.DogFragment">
+
+<!--    <com.agrawalsuneet.dotsloader.loaders.LazyLoader-->
+<!--        android:id="@+id/dots_loading"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_margin="26dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/iv_random_dog"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/iv_random_dog"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/iv_random_dog"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/iv_random_dog"-->
+<!--        app:lazyloader_animDur="400"-->
+<!--        app:lazyloader_dotsDist="@dimen/ten_dp"-->
+<!--        app:lazyloader_dotsRadius="@dimen/seven_dp"-->
+<!--        app:lazyloader_firstDelayDur="150"-->
+<!--        app:lazyloader_firstDotColor="@color/white"-->
+<!--        app:lazyloader_interpolator="@android:anim/decelerate_interpolator"-->
+<!--        app:lazyloader_secondDelayDur="300"-->
+<!--        app:lazyloader_secondDotColor="@color/white"-->
+<!--        app:lazyloader_thirdDotColor="@color/white" />-->
+
+
+
+    <ImageView
+        android:id="@+id/iv_random_dog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="0dp"
+        android:contentDescription="@string/dog_image"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="-56dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

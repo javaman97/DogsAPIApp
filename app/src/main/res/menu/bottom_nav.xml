@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favoritesFragment"
+        android:icon="@drawable/fav_bottom_selector"
+        android:title="@string/favorites"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item
+        android:id="@+id/bookmarkFragment"
+        android:icon="@drawable/bookmark_bottom_selector"
+        android:title="@string/bookmark"
+        app:showAsAction="ifRoom"/>
+</menu>
