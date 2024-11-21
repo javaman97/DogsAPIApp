@@ -30,8 +30,6 @@ A simple and fun Android app that displays random dog images from an API with sm
 
 ## PREVIEW 📸
 
-![App Preview]() 
-
 https://github.com/user-attachments/assets/fc1911cf-e76d-4f9f-a6bb-ae3ae0543133
 
  
