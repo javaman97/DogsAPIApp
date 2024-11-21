@@ -28,10 +28,14 @@ A simple and fun Android app that displays random dog images from an API with sm
 - [Gson](https://github.com/google/gson) (for serialization)
 - [Room](https://developer.android.com/training/data-storage/room) (optional for local data storage)
 
-## Screenshots 📸
+## PREVIEW 📸
 
-![App Screenshot](screenshot.png)  
-*Click to view larger.*
+![App Preview]() 
+
+https://github.com/user-attachments/assets/fc1911cf-e76d-4f9f-a6bb-ae3ae0543133
+
+ 
+*Enjoy Preview with Volume ON.*
 
 ## Setup Instructions 🛠
 
